@@ -47,3 +47,5 @@ This will create a new image with the changes you specified in your Dockerfile.
 
 With these basic steps, you are now ready to start using Docker on Windows. 
 From here, you can explore the many features and benefits of Docker, including scaling, networking, and volumes. Happy containerizing!
+
+### Up next [Running Ubuntu in Docker](https://github.com/jagadishb1409/docker-basics/tree/main/Running%20ubuntu%20in%20docker)
