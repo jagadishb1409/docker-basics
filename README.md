@@ -13,6 +13,16 @@ It will include both the Docker Engine and Docker CLI, which are required to run
 2. Run Docker on Windows: After installing Docker Desktop, launch the application and log in to your Docker account. 
 You should see the Docker whale icon in your system tray, indicating that Docker is running.
 
+> ## Note
+>
+> If you don't have Window Subsystem for Linux
+>
+> - After installing docker it will recommend to download from microsoft website
+>
+> [Link to WSL installation](https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package)
+> - After downloading WSL install and reopen the Docker
+
+
 3. Pull an Image: Docker images are pre-built applications that you can use as a starting point to create your own containers. 
 To get started, pull a popular image such as the "Hello World" image by running the following command in a Command Prompt or Windows Terminal window:
 
