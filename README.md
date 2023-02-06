@@ -48,4 +48,92 @@ This will create a new image with the changes you specified in your Dockerfile.
 With these basic steps, you are now ready to start using Docker on Windows. 
 From here, you can explore the many features and benefits of Docker, including scaling, networking, and volumes. Happy containerizing!
 
+
+## Docker CLI Commands
+
+Docker provides a command line interface to interact with the Docker Engine. The following is a list of some of the commonly used Docker CLI commands with examples.
+
+1. docker run
+
+This command is used to run a Docker container. For example:
+
+````console
+docker run ubuntu:18.04
+````
+
+2. docker ps
+
+This command is used to list the running containers. For example:
+
+````console
+docker ps
+````
+
+3. docker pull
+
+This command is used to download an image from the Docker Hub. For example:
+
+````console
+docker pull ubuntu:18.04
+````
+
+4. docker images
+
+This command is used to list the images present on the local system. For example:
+
+````console
+docker images
+````
+
+5. docker inspect
+
+This command is used to inspect the details of a Docker container or image. For example:
+
+````console
+docker inspect ubuntu:18.04
+````
+
+6. docker logs
+
+This command is used to view the logs of a Docker container. For example:
+
+````console
+docker logs my_container
+````
+
+7. docker stop
+
+This command is used to stop a running Docker container. For example:
+
+````console
+docker stop my_container
+````
+
+8. docker rm
+
+This command is used to remove a Docker container. For example:
+
+````console
+docker rm my_container
+````
+
+9. docker rmi
+
+This command is used to remove a Docker image. For example:
+
+````console
+docker rmi ubuntu:18.04
+````
+
+10. docker cp
+
+This command is used to copy files/folders between a Docker container and the host system. For example:
+
+````console
+docker cp my_container:/file/path/within/container /host/path/destination
+````
+
+These are just a few of the commonly used Docker CLI commands. To view the complete list of Docker commands, you can use the docker command followed by the --help flag.
+
+
 ### Up next [Running Ubuntu in Docker](https://github.com/jagadishb1409/docker-basics/tree/main/Running%20ubuntu%20in%20docker)
