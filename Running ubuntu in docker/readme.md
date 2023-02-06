@@ -19,7 +19,12 @@ Output:
 
 ![Output](https://github.com/jagadishb1409/docker-basics/blob/27cfbdcefe7f87e71f1e0ef3b8a6549615d485d5/images/docker%20run.png)
 
-3. As you can see, we are already a root user we don't need to run commands with sudo. Run the command to update packages
+3. As you can see, we are already a root user we don't need to run commands with sudo. Run the command to update packages. If it throws an error sudo not found, u can use this command to install sudo
+
+````console
+apt-get update && apt-get install sudo
+````
+Then run this command
 
 ````console
 apt update
