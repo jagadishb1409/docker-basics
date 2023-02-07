@@ -133,6 +133,13 @@ This command is used to copy files/folders between a Docker container and the ho
 docker cp my_container:/file/path/within/container /host/path/destination
 ````
 
+11. docker start
+
+This command is used to start a stopped Docker container.
+````console
+docker start <Container-ID>
+````
+
 These are just a few of the commonly used Docker CLI commands. To view the complete list of Docker commands, you can use the docker command followed by the --help flag.
 
 
