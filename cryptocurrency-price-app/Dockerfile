@@ -12,10 +12,11 @@ RUN apt-get update && \
 WORKDIR /app
 
 # Create a virtual environment
-RUN python3 -m venv venv
+ENV VIRTUAL_ENV=/opt/venv
+RUN python3 -m venv $VIRTUAL_ENV
 
 # Add the virtual environment to the PATH
-ENV PATH="/app/venv/bin:$PATH"
+ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
 # Copy the requirements file into the container
 COPY requirements.txt .
